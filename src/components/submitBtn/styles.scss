@@ -1,0 +1,19 @@
+.submit-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem auto;
+    border: none;
+    border-radius: 5px;
+    background-color: lightgreen;
+    width: 50rem;
+    height: 5rem;
+    font-family: 'Roboto';
+    cursor: pointer;
+    font-size: 2rem;
+ 
+    &:hover {
+        background: linear-gradient(90deg, rgba(104,250,6,1) 0%, rgba(71,199,6,1) 100%);
+    }
+}
+

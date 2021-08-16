@@ -1,0 +1,31 @@
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:  0 auto;
+    padding: 4rem 0rem;
+    &-logo img{
+        max-width: 10rem;
+        cursor: pointer;
+    }
+    &-items__wrapper{
+        display: flex;
+        gap: 5rem;
+
+    }
+    &-item{
+        font-size: 2rem;
+        cursor: pointer;
+        letter-spacing: .1em;
+        transition: text-shadow .3s;
+        font-family: 'Roboto';
+        color: black;
+        text-decoration: none;
+       
+        &:hover{
+            text-shadow: 0 0 .6px #333, 0 0 .6px #333; 
+        }
+    }
+}
+
+

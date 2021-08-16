@@ -1,0 +1,121 @@
+.full-post-overlay {
+  position: fixed;
+  overflow: auto;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(0);
+          transform: scale(0);
+}
+
+.full-post-overlay.active {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.full-post {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 2px solid lightgreen;
+  border-radius: 5px;
+  background-color: #bdfcbd;
+  padding: 10rem 5rem;
+  width: 99.6rem;
+}
+
+.full-post__container {
+  padding: 20px;
+  color: #000;
+}
+
+.full-post__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 2px solid lightgreen;
+  border-radius: 5px;
+  background-color: #bdfcbd;
+  padding: 10rem 0;
+}
+
+.full-post__title {
+  font-family: 'Roboto';
+  text-align: center;
+  font-size: 5rem;
+  margin-bottom: 2rem;
+}
+
+.full-post__text {
+  font-family: 'Roboto';
+  font-size: 3rem;
+  margin-top: 5rem;
+  width: 100%;
+}
+
+.full-post__date {
+  font-family: 'Roboto';
+  font-size: 4rem;
+}
+
+.full-post__close-btn {
+  margin-top: 5rem;
+  width: 50rem;
+  height: 5rem;
+  border: none;
+  background-color: lightgreen;
+  border-radius: 5px;
+  font-family: 'Roboto';
+  font-size: 2rem;
+}
+
+.full-post__close-btn:hover {
+  background: -webkit-gradient(linear, left top, right top, from(#68fa06), to(#47c706));
+  background: linear-gradient(90deg, #68fa06 0%, #47c706 100%);
+}
+
+.full-post__statistic {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Roboto';
+  margin-top: 5rem;
+  font-size: 4rem;
+}
+
+.full-post__likes {
+  cursor: pointer;
+}
+/*# sourceMappingURL=styles.css.map */

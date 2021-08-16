@@ -1,0 +1,83 @@
+.settings-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 2px solid lightgreen;
+  border-radius: 5px;
+  background-color: #bdfcbd;
+  padding: 10rem 0;
+}
+
+.settings-name {
+  font-family: "Roboto";
+  font-size: 3rem;
+  margin-top: 2rem;
+}
+
+.settings-email {
+  font-family: "Roboto";
+  font-size: 3rem;
+  margin-top: 2rem;
+}
+
+.settings-input {
+  font-family: 'Roboto';
+  font-size: 2rem;
+  width: 50rem;
+  height: 4rem;
+  border-radius: 6px;
+  padding-left: 2rem;
+  margin-top: 5rem;
+}
+
+.settings-avatar img {
+  width: 25rem;
+  height: 25rem;
+  border-radius: 7%;
+}
+
+.settings-delete-user__btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 5rem auto;
+  border: none;
+  border-radius: 5px;
+  background-color: #fa7900;
+  width: 50rem;
+  height: 5rem;
+  font-family: 'Roboto';
+  cursor: pointer;
+  font-size: 2rem;
+  color: white;
+}
+
+.settings-delete-user__btn:hover {
+  background: -webkit-gradient(linear, left top, right top, from(#fa9006), to(#fc4801));
+  background: linear-gradient(90deg, #fa9006 0%, #fc4801 100%);
+}
+
+.submit-btn {
+  margin-top: 2rem;
+}
+
+.grey-span {
+  font-size: 2rem;
+}
+/*# sourceMappingURL=styles.css.map */

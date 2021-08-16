@@ -1,0 +1,55 @@
+.sign-out__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: 2px solid lightgreen;
+  border-radius: 5px;
+  background-color: #bdfcbd;
+  padding: 10rem 0;
+  margin-top: 10rem;
+}
+
+.sign-out__title {
+  font-family: 'Roboto';
+  text-align: center;
+  font-size: 5rem;
+  margin-bottom: 2rem;
+}
+
+.sign-out-btns__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 85rem;
+}
+
+.sign-out-btn {
+  margin: 5rem 0;
+  border: none;
+  border-radius: 5px;
+  background-color: lightgreen;
+  width: 40rem;
+  height: 5rem;
+  font-family: 'Roboto';
+  cursor: pointer;
+  font-size: 2rem;
+}
+
+.sign-out-btn:hover {
+  background: -webkit-gradient(linear, left top, right top, from(#68fa06), to(#47c706));
+  background: linear-gradient(90deg, #68fa06 0%, #47c706 100%);
+}
+/*# sourceMappingURL=styles.css.map */

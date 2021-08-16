@@ -1,0 +1,40 @@
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  padding: 4rem 0rem;
+}
+
+.nav-logo img {
+  max-width: 10rem;
+  cursor: pointer;
+}
+
+.nav-items__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 5rem;
+}
+
+.nav-item {
+  font-size: 2rem;
+  cursor: pointer;
+  letter-spacing: .1em;
+  -webkit-transition: text-shadow .3s;
+  transition: text-shadow .3s;
+  font-family: 'Roboto';
+  color: black;
+  text-decoration: none;
+}
+
+.nav-item:hover {
+  text-shadow: 0 0 .6px #333, 0 0 .6px #333;
+}
+/*# sourceMappingURL=styles.css.map */
